@@ -36,8 +36,7 @@ nav .logo img:hover{
     align-items: center;
     gap: 2vw;
     width: 30vw;
-    justify-content: space-between;
-    
+    justify-content: flex-end;
 }
 .navtools h1{
     font-size: 1vw;
@@ -61,7 +60,16 @@ button:hover{
 }
 .navtools .contacts{
     color: aliceblue;
-    padding: 4px;
+    padding: 1px;
+
+}
+.navtools .menu i{
+    color: aliceblue;
+    font-size: 1.5vw;
+    display: none;
+}
+.navtools .menu i:hover{
+    color: rgb(186, 211, 0);
 }
 .homepage{
     height: 100vh;
@@ -84,7 +92,6 @@ button:hover{
     height:45vh;
     width:100vw;
     margin-top: 1px;
-    margin-left:10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,6 +136,7 @@ button:hover{
 .pps{
     height: 40vh;
     width: 20vw;
+    margin-left: 10%;
     border-radius: 20px;
     background-color: chartreuse;
     background-color:rgba(105, 105, 238, 0.232);
@@ -152,8 +160,8 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10%;
-    margin-left: 34%;
+    margin: 2vw;
+    margin-left: 6.7vw;
     background-color: lightseagreen;
     height: 30px;
     width: 100px;
@@ -163,8 +171,8 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10%;
-    margin-left: 34%;
+    margin: 2vw;
+    margin-left: 6.7vw;
     background-color: lightseagreen;
     height: 30px;
     width: 100px;
@@ -174,8 +182,8 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10%;
-    margin-left: 34%;
+    margin: 2vw;
+    margin-left: 7vw;
     background-color: lightseagreen;
     height: 30px;
     width: 100px;
@@ -185,8 +193,8 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10%;
-    margin-left: 34%;
+    margin: 2vw;
+    margin-left: 6.7vw;
     background-color: lightseagreen;
     height: 30px;
     width: 100px;
@@ -196,8 +204,8 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10%;
-    margin-left: 34%;
+    margin: 2vw;
+    margin-left: 6.7vw;
     background-color: lightseagreen;
     height: 30px;
     width: 100px;
