@@ -1,0 +1,293 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #0006a4, #00012c);
+    overflow-x: hidden;
+    overscroll-behavior-y: contain;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    height: 10vh;
+    width: 100vw;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: static;
+}
+nav .logo img{
+    position: relative;left: -25px;
+    
+}
+nav .logo img:hover{
+    cursor: pointer;
+}
+.navtools{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    width: 30vw;
+    justify-content: space-between;
+    
+}
+.navtools h1{
+    font-size: 1vw;
+    font-weight:600px;
+    padding: 2px;
+}
+.navtools button{
+    border: none;
+    box-shadow: none;
+}
+button{
+    background: none;
+    box-shadow: 0 5px 5px rgb(2, 2, 51);
+    text-decoration: none;
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 30vw;
+    color: beige;
+    background-color: rgba(135, 207, 235, 0.252);
+}
+.navtools .contacts{
+    color: aliceblue;
+    padding: 4px;
+}
+.homepage{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.homepage .subject{
+    height:45vh;
+    width:100vw;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    animation-duration: 3s;
+    animation-name: slide-in;
+}
+.homepage .othersubject{
+    height:45vh;
+    width:100vw;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    animation-duration: 3s;
+    animation-name: slide-in;
+}
+.maths{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 20px;
+    background-color:rgba(105, 105, 238, 0.232);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: ivory;
+}
+
+.physics{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: chartreuse;
+    background-color:rgba(105, 105, 238, 0.232);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: ivory;
+}
+.be{
+    height: 40vh;
+    width: 21vw;
+    border-radius: 20px;
+    background-color: chartreuse;
+    background-color:rgba(105, 105, 238, 0.232);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: ivory;
+}
+.pps{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: chartreuse;
+    background-color:rgba(105, 105, 238, 0.232);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: ivory;
+}
+.itw{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: chartreuse;
+    background-color:rgba(105, 105, 238, 0.232);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: ivory;
+}
+.maths button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    margin-left: 34%;
+    background-color: lightseagreen;
+    height: 30px;
+    width: 100px;
+    border-radius: 30vw;
+}
+.physics button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    margin-left: 34%;
+    background-color: lightseagreen;
+    height: 30px;
+    width: 100px;
+    border-radius: 30vw;
+}
+.be button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    margin-left: 34%;
+    background-color: lightseagreen;
+    height: 30px;
+    width: 100px;
+    border-radius: 30vw;
+}
+.pps button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    margin-left: 34%;
+    background-color: lightseagreen;
+    height: 30px;
+    width: 100px;
+    border-radius: 30vw;
+}
+.itw button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    margin-left: 34%;
+    background-color: lightseagreen;
+    height: 30px;
+    width: 100px;
+    border-radius: 30vw;
+}
+footer{
+    height: 12vh;
+    width: 100vw;
+    background: linear-gradient(to right, #0006a4, #00012c);
+    color: aliceblue;
+    text-align: center;
+    overflow: hidden;
+}
+footer em{
+    color: gold;
+}
+.visitorcount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cornsilk;
+    padding: 1vw;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 100vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+/*page2*/
+#parent{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #0006a4, #00012c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maincontent{
+    height: 60cvh;
+    width: 70vw;
+    background-color:rgba(105, 105, 238, 0.232);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.maincontent .units .unit1 {
+    height: 80px;
+    width: 100%;
+    background:linear-gradient(to right, rgba(255, 238, 0, 0.709), rgba(255, 111, 0, 0.778));
+    font-size: 30px;
+    cursor: pointer;
+}
+.maincontent .units .unit2{
+    height: 80px;
+    width: 100%;
+    background:linear-gradient(to right, rgba(255, 238, 0, 0.709), rgba(255, 111, 0, 0.778));
+    font-size: 30px;
+    cursor: pointer;
+}
+.maincontent .units .unit3{
+    height: 80px;
+    width: 100%;
+    background:linear-gradient(to right, rgba(255, 238, 0, 0.709), rgba(255, 111, 0, 0.778));
+    font-size: 30px;
+
+    cursor: pointer;
+}
+.maincontent .units .unit4{
+    height: 80px;
+    width: 100%;
+    background:linear-gradient(to right, rgba(255, 238, 0, 0.709), rgba(255, 111, 0, 0.778));
+    font-size: 30px;
+    cursor: pointer;
+}
+.maincontent .units .unit5{
+    height: 80px;
+    width: 100%;
+    background:linear-gradient(to right, rgba(255, 238, 0, 0.709), rgba(255, 111, 0, 0.778));
+    font-size: 30px;
+    cursor: pointer;
+}
+.maincontent .units .unit6{
+    height: 80px;
+    width: 100%;
+    background:linear-gradient(to right, rgba(255, 238, 0, 0.709), rgba(255, 111, 0, 0.778));
+    font-size: 30px;
+    cursor: pointer;
+}
