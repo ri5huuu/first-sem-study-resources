@@ -95,7 +95,7 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     border-radius: 20px;
     animation-duration: 3s;
     animation-name: slide-in;
@@ -136,7 +136,7 @@ button:hover{
 .pps{
     height: 40vh;
     width: 20vw;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     border-radius: 20px;
     background-color: chartreuse;
     background-color:rgba(105, 105, 238, 0.232);
@@ -276,7 +276,6 @@ footer em{
     width: 100%;
     background:linear-gradient(to right, rgba(255, 238, 0, 0.709), rgba(255, 111, 0, 0.778));
     font-size: 30px;
-
     cursor: pointer;
 }
 .maincontent .units .unit4{
@@ -300,3 +299,4 @@ footer em{
     font-size: 30px;
     cursor: pointer;
 }
+
